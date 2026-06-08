@@ -17,7 +17,7 @@ export default function Footer() {
 
         {/* Center */}
         <p className="font-mono text-xs text-text-dim text-center">
-          Built with Next.js · TypeScript · Tailwind CSS · Deployed on Vercel
+          Built with Next.js · TypeScript · Tailwind CSS · Deployed on GitHub Pages
         </p>
 
         {/* Right */}

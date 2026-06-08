@@ -1,14 +1,14 @@
 # Abdulaziz Nuri — Portfolio
 
-Personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
+Personal portfolio website built with Next.js 16, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Fonts**: Syne (display), DM Sans (body), JetBrains Mono (code)
-- **Deployment**: Vercel
+- **Deployment**: GitHub Pages
 
 ## Design System
 
@@ -31,17 +31,14 @@ npm run dev
 
 ## Deployment
 
-Deploy directly to Vercel:
+Deploy to GitHub Pages:
 
 ```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
+# Build the static export
+npm run build
 ```
 
-Or connect your GitHub repo to [vercel.com](https://vercel.com) and it auto-deploys.
+Pushes to `main` run `.github/workflows/pages.yml`, which builds the static export and publishes `out/` to the `gh-pages` branch.
 
 ## Customization
 
@@ -85,7 +82,5 @@ src/
 
 ## Domain
 
-When ready, point one of these to Vercel:
-- `abdulaziznuri.dev`
-- `anbu.dev`
-- `abdunuri.dev`
+Production domain:
+- `abdunuri.me`

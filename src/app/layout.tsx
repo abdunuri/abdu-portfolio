@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-// Fonts are loaded via CSS @import in globals.css for build flexibility.
-// When deploying to Vercel (with internet access), you can switch back to
+// Fonts are loaded via CSS @import in globals.css for static hosting flexibility.
+// If a future host has reliable Google font fetches at build time, you can switch back to
 // next/font/google: Syne, DM_Sans, JetBrains_Mono
 
 const siteUrl =
