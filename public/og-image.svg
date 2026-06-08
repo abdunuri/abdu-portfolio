@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080B12"/>
+  <g opacity="0.55">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200" stroke="#00D4FF" stroke-opacity="0.07"/>
+    <path d="M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630" stroke="#00D4FF" stroke-opacity="0.07"/>
+  </g>
+  <circle cx="930" cy="130" r="260" fill="#00D4FF" fill-opacity="0.08"/>
+  <circle cx="230" cy="490" r="220" fill="#7C3AED" fill-opacity="0.1"/>
+  <circle cx="1020" cy="485" r="150" fill="#00D4FF" fill-opacity="0.06"/>
+  <rect x="72" y="64" width="1056" height="502" rx="34" fill="#101722" fill-opacity="0.72" stroke="#00D4FF" stroke-opacity="0.18"/>
+  <rect x="104" y="96" width="92" height="92" rx="24" fill="#080B12" stroke="#00D4FF" stroke-opacity="0.35"/>
+  <path d="M124 160L143.5 120H152.5L172 160H161.5L158 152H137.5L134 160H124Z" fill="url(#logoGradient)"/>
+  <path d="M141 144H154.5L147.8 128.3L141 144Z" fill="#080B12"/>
+  <path d="M171 120H181V160H171V120Z" fill="#E2E8F0"/>
+  <path d="M180 120H185V160H180V120Z" fill="#7C3AED"/>
+  <text x="222" y="132" fill="#00D4FF" font-family="JetBrains Mono, Consolas, monospace" font-size="22" letter-spacing="3">ABDULAZIZ NURI</text>
+  <text x="104" y="298" fill="#E2E8F0" font-family="Syne, Arial Black, Arial, sans-serif" font-size="76" font-weight="800">Full-Stack &amp;</text>
+  <text x="104" y="382" fill="url(#headlineGradient)" font-family="Syne, Arial Black, Arial, sans-serif" font-size="82" font-weight="800">Automation Developer</text>
+  <text x="108" y="446" fill="#9AA7B8" font-family="DM Sans, Arial, sans-serif" font-size="30">Practical software for real-world workflows.</text>
+  <text x="108" y="496" fill="#8892A4" font-family="DM Sans, Arial, sans-serif" font-size="24">Next.js • TypeScript • Python • Playwright • Telegram Bots</text>
+  <g transform="translate(830 424)">
+    <rect width="258" height="60" rx="18" fill="#00D4FF"/>
+    <text x="129" y="38" text-anchor="middle" fill="#080B12" font-family="Syne, Arial, sans-serif" font-size="22" font-weight="700">github.com/abdunuri</text>
+  </g>
+  <defs>
+    <linearGradient id="logoGradient" x1="124" y1="120" x2="185" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="headlineGradient" x1="104" y1="322" x2="890" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+</svg>
